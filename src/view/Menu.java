@@ -37,17 +37,17 @@ public abstract class Menu<T> {
         }
         System.out.println("--------------------------------");
     }
-//-------------------------------------------
+    //-------------------------------------------
 
     public int getSelected() {
         display();
         System.out.println("Enter your choice:");
         return l.inputIntLimit(1, mChon.size());
     }
-//-------------------------------------------
+    //-------------------------------------------
 
     public abstract void execute(int n);
-//-------------------------------------------
+    //-------------------------------------------
 
     public void run() {
         while (true) {

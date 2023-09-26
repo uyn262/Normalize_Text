@@ -1,0 +1,2 @@
+- Only one space between words.
+- Only one space after comma (,), dot (.) and colon (:). First character of word after dot is in Uppercase and other words are in lower case.

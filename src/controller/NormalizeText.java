@@ -27,7 +27,6 @@ public class NormalizeText extends Menu<String>{
     
      public void normalizeText(String inputFilePath, String outputFilePath) {
         try {
-            // Đọc văn bản từ tệp đầu vào
             String inputText = readFile(inputFilePath);
             String normalizedText = model.normalizeText(inputText);
             writeFile(outputFilePath, normalizedText);
